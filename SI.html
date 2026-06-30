@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Coaching | Unlock Your Potential</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Elevate<span>Coaching</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><button id="cta-nav" class="btn-primary">Book a Session</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>デザイン your future. Achieve your goals.</h1>
+            <p>Tailored 1-on-1 coaching sessions designed to unlock your clarity, accelerate growth, and navigate your personal or professional journey.</p>
+            <button id="cta-hero" class="btn-primary large">Get Started Today</button>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>How I Can Help You</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Career Clarity</h3>
+                <p>Navigate transitions, refine your portfolio or resume, and map out a sustainable, fulfilling professional path.</p>
+            </div>
+            <div class="service-card">
+                <h3>Mindset & Growth</h3>
+                <p>Break through imposter syndrome, build daily momentum, and manage stress with actionable daily systems.</p>
+            </div>
+            <div class="service-card">
+                <h3>Skill Acceleration</h3>
+                <p>Master new frameworks, speed up your workflows, and learn to align your technical skills with strategic goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Let's Connect</h2>
+            <p>Drop your details below, and I'll reach out to schedule our discovery call.</p>
+            <form id="coaching-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="4" placeholder="Tell me a bit about what you're working on..." required></textarea>
+                <button type="submit" class="btn-primary full-width">Send Message</button>
+            </form>
+            <div id="form-success" class="success-message hidden">Thanks! I'll be in touch soon.</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Elevate Coaching. Built for growth.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
